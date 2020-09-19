@@ -1,0 +1,4 @@
+*get CARD database
+groot get -d card
+groot index -m card.90 -i grootIndex -w 100 -p 8
+groot align -i grootIndex -f sequencefile -p 8 | groot report -c 0.95
